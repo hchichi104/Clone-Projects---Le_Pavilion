@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+html {
+    font-size: 14px;
+}
+.M_hide {
+    display: none;
+}
+.main_visual .main_visual_img .swiper-slide img{
+    width: 1000px;
+}
+.banner {
+    padding: 0 3%;
+}
+.bn.center h1 img {
+    width: 190px;
+}
+.menu p {
+    width: 35px;
+}
+.nav {
+    flex-wrap: wrap;
+}
+div.nav_bg {
+    height: 100vh;
+}
+.nav .index {
+    flex-wrap: wrap;
+}
+.nav .index .box {
+    width: 40%;
+    margin: 0 auto 30px 9%;
+}
+.img_index_bg {
+    display: none;
+}
+.nav .sns {
+    bottom: -5%;
+    left: 5%;
+}
+.main_visual::after {
+    left: 50%;
+    transform: translateX(-23%);
+    font-size: 3.571rem; /* 50px; */
+}
+/* // top */
+.intro {
+    height: 70vh;
+}
+.intro p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-left: 0;
+}
+.intro p span {
+    font-weight: 600;
+}
+.intro div.text {
+    width: 90%;
+    left: 3%;
+    margin-left: 3%;
+    margin-top: -4%;
+    position: absolute;
+}
+.intro div.text h3 {
+    font-size: 3.2rem;
+    left: 0;
+    font-family: "Playwrite IN", serif;
+    margin-bottom: 30px;
+    color: black;
+}
+.intro div.text p {
+    font-size: 16px;
+    line-height: 25px;
+    word-break: keep-all;
+    position: absolute;
+    top: 80%;
+}
+.intro div.text p::before {
+    width: 400px; height: 400px;
+    top: -170%;
+}
+.intro div.text p::after {
+    width: 230px; height: 230px;
+    bottom: 90%;
+}
+.intro .swiper {
+    width: 95%;
+    height: 45%;
+    left: 2.5%;
+    top: 33%;
+}
+/* // intro */
+.reservaiton {
+    height: 70vh;
+}
+.reservaiton .left {
+    width: 90%;
+    margin: 0 auto;
+}
+.reservaiton .left .info p {
+    width: 65%;
+    line-height: 1.5rem; /* 21px; */
+}
+/* // reservation */
+.booking .text {
+    top: 25%;
+    width: 90%;
+}
+.booking .text h3 {
+    font-size: 80px;
+}
+.booking .text p:last-of-type {
+    color: #edd2b4;
+    font-weight: 250;
+    line-height: 25px;
+    letter-spacing: 1.7px;
+    margin-bottom: 60px;
+
+    font-size: 17px;
+}
+.over .top {
+    justify-content: center;
+}
+.over .top .left {
+    display: none;
+}
+.over .top .right {
+    text-align: center;
+    position: relative;
+}
+.over .top .right figure {
+    position: absolute;
+    right: -40%;
+    top: -25.3%;
+}
+.down .bottom {
+    justify-content: center;
+    gap: 10%;
+}
+/* // foter */
